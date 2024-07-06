@@ -25,6 +25,8 @@ body {
   box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
   
   position: absolute;
+
+  border: 5px solid black;
 }
 
 .paper.heart {
@@ -37,9 +39,11 @@ body {
 
 .paper.image {
   padding: 10px;
+  font-size: 25px;
+  border: 5px solid black;
 }
 .paper.image p {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 img {
@@ -63,12 +67,12 @@ img {
 }
 
 p {
-  font-family: 'fangsong';
+  font-family: 'serif';
   font-size: 50px;
   font-weight: bolder;
-  color: rgb(100, 0, 87);
-  opacity: 0.75;
+  color: rgb(231, 11, 147);
+  opacity: 1;
   user-select: none;
   
-  filter: drop-shadow(2px 1.5px 1px rgba(3, 3, 25, 0.9));
+  filter: drop-shadow(2px 1.5px 1px rgba(224, 223, 223, 0.9));
 }
