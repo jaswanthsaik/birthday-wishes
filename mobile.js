@@ -69,11 +69,6 @@ class Paper {
       this.holdingPaper = false;
       this.rotating = false;
     });
-    paper.addEventListener('mouseup', () => {
-      this.holdingPaper = false;
-    });
-
-    paper.addEventListener('click', showNextPaper);
 
     // For two-finger rotation on touch screens
     paper.addEventListener('gesturestart', (e) => {
@@ -92,14 +87,3 @@ papers.forEach(paper => {
   const p = new Paper();
   p.init(paper);
 });
-window.onload = () => {
-  papers.forEach((paperElement, index) => {
-    if (index === 0) {
-      paperElement.classList.add('visible');
-    } else {
-      paperElement.classList.remove('visible');
-    }
-    const paper = new Paper();
-    paper.init(paperElement);
-  });
-};
