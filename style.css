@@ -18,7 +18,7 @@ body {
   background-image: url("https://i0.wp.com/textures.world/wp-content/uploads/2018/10/2-Millimeter-Paper-Background-copy.jpg?ssl=1");
   background-size: 500px;
   background-position: center center;
-  padding: 20px 100px;
+  padding: 20px 20px;
 /*  min-width: 800px; */
   
   transform: rotateZ(-5deg);
@@ -75,4 +75,43 @@ p {
   user-select: none;
   
   filter: drop-shadow(2px 1.5px 1px rgba(224, 223, 223, 0.9));
+}
+.jashu{
+  width: 150px;
+}
+.jashu-container{
+  display: flex;
+  justify-content: space-between;
+}
+.akanksha-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.blur {
+  filter: blur(10px);
+}
+
+.paper {
+  display: none;
+}
+
+.paper.visible {
+  display: block;
+}
+.amma-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.akka{
+  width: 210px;
+  max-height: 250px !important;
+}
+
+.sandhya{
+  width: 500px;
+  max-height: 500px !important;
 }
